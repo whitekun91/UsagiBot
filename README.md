@@ -7,7 +7,7 @@
 
 # Usagi Bot
 
-.. image:: https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logo/usagi.jpg
+.. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/main/doc/logo/usagi.jpg
 
 
 **Usagi** means a Rabbit in japanese.

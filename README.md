@@ -7,10 +7,13 @@
 
 .. |PythonMinVersion| replace:: 3.9
 
+
 # Usagi Bot
+------------
 
 .. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/main/doc/logo/usagi.jpg
 
+------------
 
 **Usagi** means a Rabbit in japanese.
 

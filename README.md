@@ -11,7 +11,7 @@
 # Usagi Bot
 ------------
 
-.. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/main/doc/logo/usagi.jpg
+.. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/blob/master/doc/logo/usagi.jpg
 
 ------------
 

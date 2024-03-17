@@ -22,5 +22,5 @@ This Bot is for FFXIV and for Daily Communication.
 
 And also It is Generative AI Bot.
 
----
+------------
 

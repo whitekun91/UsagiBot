@@ -1,7 +1,8 @@
+.. -*- mode: rst -*-
+
 |PythonVersion|_
 
 .. |PythonVersion| image:: https://img.shields.io/pypi/pyversions/scikit-learn.svg
-
 .. _PythonVersion: https://pypi.org/project/scikit-learn/
 
 .. |PythonMinVersion| replace:: 3.9

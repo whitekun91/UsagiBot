@@ -9,11 +9,11 @@
 ------------
 
 
-.. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg 
-    :align: center
+<p align="center">
+<img src="https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg" width="20%" height="30%">
+</p>
 
-
-## <center> For Game Information and Daily Communication Discord Bot. </center>
+### <center> For Game Information and Daily Communication Discord Bot. </center>
 
 
 ------------

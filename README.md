@@ -6,8 +6,6 @@
 # <center> Usagi Bot </center>
 
 
-------------
-
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg">
@@ -22,7 +20,6 @@
 # Overview
 
 
-------------
 
 
 This Bot is for FFXIV and for Daily Communication.

@@ -8,19 +8,32 @@
 .. |PythonMinVersion| replace:: 3.9
 
 
-# Usagi Bot
+
+
+# <center> Usagi Bot </center>
+
 ------------
 
-.. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/master/doc/logo/usagi.jpg
+<center> .. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg </center>
+
+## <center> For Game Information and Daily Communication Discord Bot. </center>
 
 ------------
 
-**Usagi** means a Rabbit in japanese.
+# Overview
+
+------------
 
 
 This Bot is for FFXIV and for Daily Communication.
 
 And also It is Generative AI Bot.
 
+
+
 ------------
+
+
+### Usagi means a Rabbit in japanese.
+
 

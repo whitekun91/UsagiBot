@@ -9,7 +9,8 @@
 ------------
 
 
-<center> .. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg </center>
+.. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg 
+    :align: center
 
 
 ## <center> For Game Information and Daily Communication Discord Bot. </center>

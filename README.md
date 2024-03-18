@@ -1,14 +1,6 @@
-.. -*- mode: rst -*-
+![Static Badge](https://img.shields.io/badge/python-3.10-blue)
 
-|PythonVersion|_
-
-.. |PythonVersion| image:: https://img.shields.io/pypi/pyversions/scikit-learn.svg
-
-.. _PythonVersion: https://pypi.org/project/scikit-learn/
-
-.. |PythonMinVersion| replace:: 3.9
-
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwhitekun91%2FUsagiBot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 # <center> Usagi Bot </center>
@@ -19,20 +11,23 @@
 
 <center> .. image:: https://raw.githubusercontent.com/whitekun91/UsagiBot/master/docs/logo/usagi.jpg </center>
 
+
 ## <center> For Game Information and Daily Communication Discord Bot. </center>
 
 
 ------------
 
+
 # Overview
+
 
 ------------
 
 
 This Bot is for FFXIV and for Daily Communication.
 
-And also It is Generative AI Bot.
 
+And also It is Generative AI Bot.
 
 
 ------------

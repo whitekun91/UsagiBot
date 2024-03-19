@@ -34,3 +34,8 @@ And also It is Generative AI Bot.
 ### Usagi means a Rabbit in japanese.
 
 
+------------
+
+# Core Version
+
+- v1.0.0 = Release: 2024-03-19 Minwoo Baek.

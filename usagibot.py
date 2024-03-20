@@ -2,7 +2,7 @@ import discord
 import json
 
 
-with open('config/config.json', 'r') as f:
+with open('./UsagiBot/config/config.json', 'r') as f:
     json_config = json.load(f)
 
 # Initialize

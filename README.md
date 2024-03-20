@@ -38,4 +38,5 @@ And also It is Generative AI Bot.
 
 # Version
 
+- v1.0.1 = Last Update: 2024-03-20 (Define File Structure)
 - v1.0.0 = Release: 2024-03-19

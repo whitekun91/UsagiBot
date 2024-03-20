@@ -1,29 +1,27 @@
+from config.config import token
+from utils.logManager import logger
+from routes.websocket import on_ready
+from routes.messages import on_message
 import discord
-import json
 
 
-with open('./UsagiBot/config/config.json', 'r') as f:
-    json_config = json.load(f)
+class MyClient(discord.Client):
+    async def on_ready(self):
+        await on_ready(self)
 
-# Initialize
-intents = discord.Intents.default()
-intents.message_content = True
-
-client = discord.Client(intents=intents)
-token = json_config['token']
-
-@client.event
-async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    async def on_message(self, message):
+        await on_message(self, message)
 
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
+if __name__ == '__main__':
+    try:
+        # Initialize
+        intents = discord.Intents.default()
+        intents.message_content = True
+        client = MyClient(intents=intents)
+        client.run(token)
 
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
-
-
-client.run(token)
+    except Exception as e:
+        print('Error')
+        logger.exception(e)
+        raise

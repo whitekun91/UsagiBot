@@ -36,6 +36,6 @@ And also It is Generative AI Bot.
 
 ------------
 
-# Core Version
+# Version
 
-- v1.0.0 = Release: 2024-03-19 Minwoo Baek.
+- v1.0.0 = Release: 2024-03-19

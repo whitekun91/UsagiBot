@@ -1,4 +1,4 @@
-"""로깅 초기화."""
+﻿"""Logging setup."""
 
 from __future__ import annotations
 

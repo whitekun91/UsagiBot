@@ -1,1 +1,1 @@
-"""명령·이벤트 코그 패키지."""
+﻿"""Cog package for commands and events."""

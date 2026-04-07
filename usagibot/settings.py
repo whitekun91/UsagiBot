@@ -1,4 +1,4 @@
-"""환경 변수 및 선택적 JSON 설정에서 봇 설정을 불러옵니다."""
+﻿"""Load bot settings from environment variables and optional JSON config."""
 
 from __future__ import annotations
 
@@ -40,7 +40,7 @@ def load_settings() -> Settings:
     token = os.getenv("DISCORD_TOKEN") or _token_from_json()
     if not token:
         raise RuntimeError(
-            "DISCORD_TOKEN이 없습니다. .env에 DISCORD_TOKEN을 넣거나 config/config.json에 token을 설정하세요."
+            "DISCORD_TOKEN is missing. Set DISCORD_TOKEN in .env or token in config/config.json."
         )
 
     openai_key = os.getenv("OPENAI_API_KEY") or None
@@ -55,7 +55,7 @@ def load_settings() -> Settings:
         try:
             sync_guild_id = int(sync_raw)
         except ValueError as e:
-            raise ValueError("SYNC_GUILD_ID는 정수여야 합니다.") from e
+            raise ValueError("SYNC_GUILD_ID must be an integer.") from e
     else:
         sync_guild_id = None
 

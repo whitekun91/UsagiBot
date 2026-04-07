@@ -1,1 +1,1 @@
-"""공용 유틸."""
+﻿"""Shared utilities."""

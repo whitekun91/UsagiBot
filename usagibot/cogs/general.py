@@ -1,4 +1,4 @@
-"""기본 진단·정보 명령."""
+﻿"""Basic diagnostics and info commands."""
 
 from __future__ import annotations
 
@@ -10,25 +10,25 @@ from usagibot import __version__
 
 
 class GeneralCog(commands.Cog):
-    """핑, 봇 정보."""
+    """Ping and bot information commands."""
 
     def __init__(self, bot: commands.Bot) -> None:
         self.bot = bot
 
-    @app_commands.command(name="ping", description="봇 지연 시간을 확인합니다.")
+    @app_commands.command(name="ping", description="Check bot latency.")
     async def ping(self, interaction: discord.Interaction) -> None:
         latency_ms = round(self.bot.latency * 1000)
-        await interaction.response.send_message(f"pong — **{latency_ms}** ms")
+        await interaction.response.send_message(f"pong - **{latency_ms}** ms")
 
-    @app_commands.command(name="about", description="봇 소개와 버전을 표시합니다.")
+    @app_commands.command(name="about", description="Show bot summary and version.")
     async def about(self, interaction: discord.Interaction) -> None:
         embed = discord.Embed(
             title="Usagi Bot",
-            description="FFXIV 정보·일상 대화·생성형 AI·음악 재생을 지향하는 Discord 봇입니다.",
+            description="A Discord bot focused on FFXIV info, everyday community features, generative AI, and music playback.",
             color=discord.Color.blurple(),
         )
-        embed.add_field(name="버전", value=__version__, inline=True)
-        embed.set_footer(text="Usagi = 일본어로 토끼")
+        embed.add_field(name="Version", value=__version__, inline=True)
+        embed.set_footer(text="Usagi means rabbit in Japanese.")
         await interaction.response.send_message(embed=embed)
 
 

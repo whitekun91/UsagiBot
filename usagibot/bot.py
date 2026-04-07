@@ -1,4 +1,4 @@
-"""Discord 봇 인스턴스 및 확장(cog) 로드."""
+﻿"""Discord bot instance and extension loader."""
 
 from __future__ import annotations
 
@@ -35,20 +35,20 @@ class UsagiBot(commands.Bot):
     async def setup_hook(self) -> None:
         for ext in COGS:
             await self.load_extension(ext)
-            logger.info("확장 로드: %s", ext)
+            logger.info("Extension loaded: %s", ext)
 
         if self.settings.sync_guild_id is not None:
             guild = discord.Object(id=self.settings.sync_guild_id)
             self.tree.copy_global_to(guild=guild)
             await self.tree.sync(guild=guild)
-            logger.info("슬래시 명령 동기화(길드): %s", self.settings.sync_guild_id)
+            logger.info("Slash command sync (guild): %s", self.settings.sync_guild_id)
         else:
             await self.tree.sync()
-            logger.info("슬래시 명령 동기화(전역)")
+            logger.info("Slash command sync (global)")
 
     async def on_ready(self) -> None:
         assert self.user is not None
-        logger.info("로그인: %s (%s)", self.user, self.user.id)
+        logger.info("Logged in as: %s (%s)", self.user, self.user.id)
 
 
 def run_bot(settings: Settings) -> None:

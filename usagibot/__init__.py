@@ -1,3 +1,3 @@
-"""UsagiBot — FFXIV 중심 Discord 봇."""
+﻿"""UsagiBot - FFXIV-focused Discord bot."""
 
-__version__ = "2.0.0"
+__version__ = "2.1.0"

@@ -1,11 +1,13 @@
 # Usagi Bot
 
-Usagi Main Image
+<p align="center">
+  <img src="./docs/main-image.png" alt="Usagi Main Image" width="560" />
+</p>
 
 FFXIV 정보·일상 커뮤니티·생성형 AI·음악 재생을 지향하는 Discord 봇입니다.  
 (Usagi = 일본어로 토끼)
 
-Python
+![Python](https://img.shields.io/badge/python-3.10+-blue)
 
 ## 요구 사항
 
